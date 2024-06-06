@@ -13,7 +13,7 @@ const About = () => {
         <div className="about-content">
           <h1 className="about-title">Hello, I am Azizur</h1>
           <p className="about-description">
-            A [your age]-year-old [location]-based software developer. I first started developing games using Unity3D,
+            A 22-year-old New york-based software developer. I first started developing games using Unity3D,
             but soon realized I preferred web and mobile app development, and I've been building and working on that
             for the past [X] years now.<br /><br />
             Being self-taught made me appreciate education; thus, I'm studying [Your Major] simultaneously.
