@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+
+
+
+/* General Styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar Styles */
+nav {
+  background: #1f1f1f;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+nav ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Section Styles */
+.section {
+  padding: 100px 20px;
   min-height: 100vh;
+}
+
+.section-padding-top {
+  padding-top: 120px; /* Add extra padding to compensate for the fixed navbar */
+}
+
+#home {
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 3em; /* Increase font size */
+  font-weight: bold;
+  color: #ffcc00; /* Highlight color */
+  text-align: center;
+  margin: 0;
+}
+
+#about, #portfolio, #contact {
+  background: #232323;
+}
+
+#about h1, #portfolio h1, #contact h1 {
+  margin-top: 0;
+  color: #ffcc00;
+}
+
+/* Portfolio Styles */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.project h2 {
+  margin-top: 0;
+  color: #ffcc00;
+}
+
+.project p {
+  color: #b3b3b3;
+}
+
+.project a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Styles */
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffdd33;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav ul li {
+    margin: 10px 0;
   }
 }
+
+
+
