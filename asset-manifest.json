@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Azizur/static/css/main.b7167e61.css",
+    "main.js": "/Azizur/static/js/main.1eaee29e.js",
+    "static/js/453.8bdc27ca.chunk.js": "/Azizur/static/js/453.8bdc27ca.chunk.js",
+    "static/media/mypic.png": "/Azizur/static/media/mypic.80ad31a79d97618bbd16.png",
+    "static/media/pythonlogo.png": "/Azizur/static/media/pythonlogo.d7a21d969a68b01c2b64.png",
+    "static/media/react.png": "/Azizur/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/MaterialUI.png": "/Azizur/static/media/MaterialUI.ec9a2464156a595cae04.png",
+    "static/media/Git.png": "/Azizur/static/media/Git.8dd3688bb1415872d423.png",
+    "static/media/sql.png": "/Azizur/static/media/sql.7f7045d239b1d173a582.png",
+    "static/media/node.png": "/Azizur/static/media/node.abfaef34ea49d0c7cd3c.png",
+    "static/media/css.png": "/Azizur/static/media/css.ecba351cfceec5953d14.png",
+    "static/media/logo3.png": "/Azizur/static/media/logo3.4e8df23c0dbefba0b048.png",
+    "static/media/html5.png": "/Azizur/static/media/html5.43350328e3722f7d0758.png",
+    "static/media/MongoDB.png": "/Azizur/static/media/MongoDB.2178943141ba7e7fae4e.png",
+    "static/media/logo4.png": "/Azizur/static/media/logo4.516a3d8f6c079ee04718.png",
+    "static/media/java.png": "/Azizur/static/media/java.4fa3da38f324889c0098.png",
+    "index.html": "/Azizur/index.html",
+    "main.b7167e61.css.map": "/Azizur/static/css/main.b7167e61.css.map",
+    "main.1eaee29e.js.map": "/Azizur/static/js/main.1eaee29e.js.map",
+    "453.8bdc27ca.chunk.js.map": "/Azizur/static/js/453.8bdc27ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7167e61.css",
+    "static/js/main.1eaee29e.js"
+  ]
+}
